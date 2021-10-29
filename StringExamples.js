@@ -13,7 +13,7 @@ console.log(stringEx4, stringEx4.length ,stringEx4.replace('clock', 'Closet'));
 console.log(stringEx5, stringEx5.length, stringEx5.slice(2, 5));
 console.log('uppercase', stringEx4.toUpperCase() , stringEx4.split(" "));
 console.log('lowercase', stringEx4.toLowerCase());
-console.log('trim ', "    n o th   in g  ".trim());
+console.log('trim ', "   n o th   in g  ".trim());
 console.log('trim ', "    n o th   in g  ".trimLeft());
 console.log('trim ', "    n o th   in g  ".trimEnd());
 console.log('trim ', "    n o th   in g  ".trimRight());
