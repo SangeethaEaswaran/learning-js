@@ -1,17 +1,17 @@
 let stringEx = 'This is a string. 👏';
 let stringEx1 = "This is the 2nd string. 💁";
-let stringEx2 = "It's six o'clock.";
+let stringEx2 = "It's six o'clock. clock";
 let stringEx3 = 'Remember to say "please" and "thank you."';
 let stringEx4 = 'It\'s six o\'clock.';
 let stringEx5 = "Remember to say \"please\" and \"thank you.\"";
 
-console.log(stringEx, stringEx.length);
-console.log(stringEx1, stringEx1.length);
-console.log(stringEx2, stringEx2.length);
-console.log(stringEx3, stringEx3.length);
-console.log(stringEx4, stringEx4.length);
-console.log(stringEx5, stringEx5.length);
-console.log('uppercase', stringEx4.toUpperCase());
+console.log(stringEx, stringEx.length , stringEx.charAt(1));
+console.log(stringEx1, stringEx1.length, stringEx1.charCodeAt(2));
+console.log(stringEx2, stringEx2.length, stringEx2.indexOf('clock1'), stringEx2.lastIndexOf('clock'));
+console.log(stringEx3, stringEx3.length, stringEx3.search('to'));
+console.log(stringEx4, stringEx4.length ,stringEx4.replace('clock', 'Closet'));
+console.log(stringEx5, stringEx5.length, stringEx5.slice(2, 5));
+console.log('uppercase', stringEx4.toUpperCase() , stringEx4.split(" "));
 console.log('lowercase', stringEx4.toLowerCase());
 console.log('trim ', "    n o th   in g  ".trim());
 console.log('trim ', "    n o th   in g  ".trimLeft());
